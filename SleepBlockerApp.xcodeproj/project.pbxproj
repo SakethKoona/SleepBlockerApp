@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A05B7C42C6F085300C68710 /* SleepScheduleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF102F2C60830000C504FA /* SleepScheduleApp.swift */; };
+		5A05B7C52C6F169600C68710 /* SchedulingForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD523BC2C6948C50057C9DE /* SchedulingForm.swift */; };
+		5A05B7C62C6F259900C68710 /* SleepBlockerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF101B2C607B5D00C504FA /* SleepBlockerAppApp.swift */; };
+		5A05B7C72C6F25A700C68710 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF10292C60802900C504FA /* MainScreen.swift */; };
+		5A05B7C82C6F25B000C68710 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF102D2C6080D900C504FA /* AnalyticsView.swift */; };
+		5A05B7C92C6F25B500C68710 /* SchedulingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF102B2C60807200C504FA /* SchedulingView.swift */; };
+		5A0DEDB32C6EF7FE00F86C75 /* DeviceActivityMonitorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE31752C66B63E00FEAFEE /* DeviceActivityMonitorExtension.swift */; };
+		5A0DEDB42C6F005900F86C75 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F27332C686457005459A2 /* CardView.swift */; };
+		5A0DEDB52C6F006300F86C75 /* BlockingForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE31812C67061300FEAFEE /* BlockingForm.swift */; };
+		5A8F27342C686457005459A2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F27332C686457005459A2 /* CardView.swift */; };
+		5ACE31732C66B63E00FEAFEE /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACE31722C66B63E00FEAFEE /* DeviceActivity.framework */; };
+		5ACE31762C66B63E00FEAFEE /* DeviceActivityMonitorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE31752C66B63E00FEAFEE /* DeviceActivityMonitorExtension.swift */; };
+		5ACE317B2C66B63E00FEAFEE /* SleepScheduleMonitor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5ACE31702C66B63E00FEAFEE /* SleepScheduleMonitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5ACE31822C67061300FEAFEE /* BlockingForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE31812C67061300FEAFEE /* BlockingForm.swift */; };
+		5AD523BD2C6948C50057C9DE /* SchedulingForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD523BC2C6948C50057C9DE /* SchedulingForm.swift */; };
+		5AEF101C2C607B5D00C504FA /* SleepBlockerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF101B2C607B5D00C504FA /* SleepBlockerAppApp.swift */; };
+		5AEF10202C607B6000C504FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AEF101F2C607B6000C504FA /* Assets.xcassets */; };
+		5AEF10232C607B6000C504FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AEF10222C607B6000C504FA /* Preview Assets.xcassets */; };
+		5AEF102A2C60802900C504FA /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF10292C60802900C504FA /* MainScreen.swift */; };
+		5AEF102C2C60807200C504FA /* SchedulingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF102B2C60807200C504FA /* SchedulingView.swift */; };
+		5AEF102E2C6080D900C504FA /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF102D2C6080D900C504FA /* AnalyticsView.swift */; };
+		5AEF10302C60830000C504FA /* SleepScheduleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF102F2C60830000C504FA /* SleepScheduleApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ACE31792C66B63E00FEAFEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AEF10102C607B5D00C504FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ACE316F2C66B63E00FEAFEE;
+			remoteInfo = SleepScheduleMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5A5A7BDF2C6D68D700795F63 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACE317C2C66B63E00FEAFEE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5ACE317B2C66B63E00FEAFEE /* SleepScheduleMonitor.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5A8099A22C65971800C9BF1A /* SleepBlockerApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SleepBlockerApp.entitlements; sourceTree = "<group>"; };
+		5A8F27332C686457005459A2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5ACE31702C66B63E00FEAFEE /* SleepScheduleMonitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SleepScheduleMonitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACE31722C66B63E00FEAFEE /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
+		5ACE31752C66B63E00FEAFEE /* DeviceActivityMonitorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActivityMonitorExtension.swift; sourceTree = "<group>"; };
+		5ACE31772C66B63E00FEAFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ACE31782C66B63E00FEAFEE /* SleepScheduleMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SleepScheduleMonitor.entitlements; sourceTree = "<group>"; };
+		5ACE31812C67061300FEAFEE /* BlockingForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockingForm.swift; sourceTree = "<group>"; };
+		5AD523BC2C6948C50057C9DE /* SchedulingForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulingForm.swift; sourceTree = "<group>"; };
+		5AEF10182C607B5D00C504FA /* SleepBlockerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepBlockerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AEF101B2C607B5D00C504FA /* SleepBlockerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepBlockerAppApp.swift; sourceTree = "<group>"; };
+		5AEF101F2C607B6000C504FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AEF10222C607B6000C504FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5AEF10292C60802900C504FA /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		5AEF102B2C60807200C504FA /* SchedulingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulingView.swift; sourceTree = "<group>"; };
+		5AEF102D2C6080D900C504FA /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		5AEF102F2C60830000C504FA /* SleepScheduleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepScheduleApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ACE316D2C66B63E00FEAFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACE31732C66B63E00FEAFEE /* DeviceActivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AEF10152C607B5D00C504FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ACE31712C66B63E00FEAFEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ACE31722C66B63E00FEAFEE /* DeviceActivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5ACE31742C66B63E00FEAFEE /* SleepScheduleMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				5ACE31752C66B63E00FEAFEE /* DeviceActivityMonitorExtension.swift */,
+				5ACE31772C66B63E00FEAFEE /* Info.plist */,
+				5ACE31782C66B63E00FEAFEE /* SleepScheduleMonitor.entitlements */,
+			);
+			path = SleepScheduleMonitor;
+			sourceTree = "<group>";
+		};
+		5AEF100F2C607B5D00C504FA = {
+			isa = PBXGroup;
+			children = (
+				5ACE31742C66B63E00FEAFEE /* SleepScheduleMonitor */,
+				5AEF101A2C607B5D00C504FA /* SleepBlockerApp */,
+				5ACE31712C66B63E00FEAFEE /* Frameworks */,
+				5AEF10192C607B5D00C504FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AEF10192C607B5D00C504FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AEF10182C607B5D00C504FA /* SleepBlockerApp.app */,
+				5ACE31702C66B63E00FEAFEE /* SleepScheduleMonitor.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AEF101A2C607B5D00C504FA /* SleepBlockerApp */ = {
+			isa = PBXGroup;
+			children = (
+				5A8099A22C65971800C9BF1A /* SleepBlockerApp.entitlements */,
+				5A8F27332C686457005459A2 /* CardView.swift */,
+				5ACE31812C67061300FEAFEE /* BlockingForm.swift */,
+				5AEF102B2C60807200C504FA /* SchedulingView.swift */,
+				5AEF10292C60802900C504FA /* MainScreen.swift */,
+				5AEF102F2C60830000C504FA /* SleepScheduleApp.swift */,
+				5AEF102D2C6080D900C504FA /* AnalyticsView.swift */,
+				5AEF101B2C607B5D00C504FA /* SleepBlockerAppApp.swift */,
+				5AEF101F2C607B6000C504FA /* Assets.xcassets */,
+				5AD523BC2C6948C50057C9DE /* SchedulingForm.swift */,
+				5AEF10212C607B6000C504FA /* Preview Content */,
+			);
+			path = SleepBlockerApp;
+			sourceTree = "<group>";
+		};
+		5AEF10212C607B6000C504FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5AEF10222C607B6000C504FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ACE316F2C66B63E00FEAFEE /* SleepScheduleMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACE317F2C66B63E00FEAFEE /* Build configuration list for PBXNativeTarget "SleepScheduleMonitor" */;
+			buildPhases = (
+				5ACE316C2C66B63E00FEAFEE /* Sources */,
+				5ACE316D2C66B63E00FEAFEE /* Frameworks */,
+				5ACE316E2C66B63E00FEAFEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepScheduleMonitor;
+			productName = SleepScheduleMonitor;
+			productReference = 5ACE31702C66B63E00FEAFEE /* SleepScheduleMonitor.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5AEF10172C607B5D00C504FA /* SleepBlockerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AEF10262C607B6000C504FA /* Build configuration list for PBXNativeTarget "SleepBlockerApp" */;
+			buildPhases = (
+				5AEF10142C607B5D00C504FA /* Sources */,
+				5AEF10152C607B5D00C504FA /* Frameworks */,
+				5AEF10162C607B5D00C504FA /* Resources */,
+				5ACE317C2C66B63E00FEAFEE /* Embed Foundation Extensions */,
+				5A5A7BDF2C6D68D700795F63 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ACE317A2C66B63E00FEAFEE /* PBXTargetDependency */,
+			);
+			name = SleepBlockerApp;
+			productName = SleepBlockerApp;
+			productReference = 5AEF10182C607B5D00C504FA /* SleepBlockerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AEF10102C607B5D00C504FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5ACE316F2C66B63E00FEAFEE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					5AEF10172C607B5D00C504FA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 5AEF10132C607B5D00C504FA /* Build configuration list for PBXProject "SleepBlockerApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AEF100F2C607B5D00C504FA;
+			productRefGroup = 5AEF10192C607B5D00C504FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AEF10172C607B5D00C504FA /* SleepBlockerApp */,
+				5ACE316F2C66B63E00FEAFEE /* SleepScheduleMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ACE316E2C66B63E00FEAFEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AEF10162C607B5D00C504FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AEF10232C607B6000C504FA /* Preview Assets.xcassets in Resources */,
+				5AEF10202C607B6000C504FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ACE316C2C66B63E00FEAFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A05B7C52C6F169600C68710 /* SchedulingForm.swift in Sources */,
+				5A05B7C82C6F25B000C68710 /* AnalyticsView.swift in Sources */,
+				5A05B7C92C6F25B500C68710 /* SchedulingView.swift in Sources */,
+				5A05B7C72C6F25A700C68710 /* MainScreen.swift in Sources */,
+				5A05B7C42C6F085300C68710 /* SleepScheduleApp.swift in Sources */,
+				5A0DEDB42C6F005900F86C75 /* CardView.swift in Sources */,
+				5A0DEDB52C6F006300F86C75 /* BlockingForm.swift in Sources */,
+				5A05B7C62C6F259900C68710 /* SleepBlockerAppApp.swift in Sources */,
+				5ACE31762C66B63E00FEAFEE /* DeviceActivityMonitorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AEF10142C607B5D00C504FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AEF102A2C60802900C504FA /* MainScreen.swift in Sources */,
+				5A8F27342C686457005459A2 /* CardView.swift in Sources */,
+				5ACE31822C67061300FEAFEE /* BlockingForm.swift in Sources */,
+				5AD523BD2C6948C50057C9DE /* SchedulingForm.swift in Sources */,
+				5A0DEDB32C6EF7FE00F86C75 /* DeviceActivityMonitorExtension.swift in Sources */,
+				5AEF102E2C6080D900C504FA /* AnalyticsView.swift in Sources */,
+				5AEF101C2C607B5D00C504FA /* SleepBlockerAppApp.swift in Sources */,
+				5AEF10302C60830000C504FA /* SleepScheduleApp.swift in Sources */,
+				5AEF102C2C60807200C504FA /* SchedulingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ACE317A2C66B63E00FEAFEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ACE316F2C66B63E00FEAFEE /* SleepScheduleMonitor */;
+			targetProxy = 5ACE31792C66B63E00FEAFEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5ACE317D2C66B63E00FEAFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SleepScheduleMonitor/SleepScheduleMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SleepScheduleMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SleepScheduleMonitor;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Saketh.SleepBlockerApp.SleepScheduleMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ACE317E2C66B63E00FEAFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SleepScheduleMonitor/SleepScheduleMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SleepScheduleMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SleepScheduleMonitor;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Saketh.SleepBlockerApp.SleepScheduleMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5AEF10242C607B6000C504FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AEF10252C607B6000C504FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AEF10272C607B6000C504FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SleepBlockerApp/SleepBlockerApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepBlockerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SleepShield;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Saketh.SleepBlockerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AEF10282C607B6000C504FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SleepBlockerApp/SleepBlockerApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepBlockerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SleepShield;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Saketh.SleepBlockerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ACE317F2C66B63E00FEAFEE /* Build configuration list for PBXNativeTarget "SleepScheduleMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACE317D2C66B63E00FEAFEE /* Debug */,
+				5ACE317E2C66B63E00FEAFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AEF10132C607B5D00C504FA /* Build configuration list for PBXProject "SleepBlockerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AEF10242C607B6000C504FA /* Debug */,
+				5AEF10252C607B6000C504FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AEF10262C607B6000C504FA /* Build configuration list for PBXNativeTarget "SleepBlockerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AEF10272C607B6000C504FA /* Debug */,
+				5AEF10282C607B6000C504FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AEF10102C607B5D00C504FA /* Project object */;
+}
